@@ -1,0 +1,26 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon --exec 'npx babel-node src/server.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/node": "7.14.9",
+    "@babel/preset-env": "7.15.0",
+    "nodemon": "2.0.12"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "firebase-admin": "^11.10.1",
+    "mongodb": "4.1.0",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  }
+}
